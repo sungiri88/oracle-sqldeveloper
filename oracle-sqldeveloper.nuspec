@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>oracle-sqldeveloper</id>
+    <version>18.3</version>
+    <title>Oracle SQL Developer (Install)</title>
+    <authors>Ferguson</authors>
+    <projectUrl>https://www.oracle.com/technetwork/developer-tools/sql-developer/downloads/index.html</projectUrl>
+    <tags>Oracle SQLDeveloper</tags>
+    <summary>Install Oracle SQL Developer</summary>
+    <description>__REPLACE__MarkDown_Okay </description>
+  </metadata>
+  <files>
+    <!-- this section controls what actually gets packaged into the Chocolatey package -->
+    <file src="tools\**" target="tools" />
+    <!--Building from Linux? You may need this instead: <file src="tools/**" target="tools" />-->
+  </files>
+</package>
